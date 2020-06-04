@@ -1,0 +1,15 @@
+{
+  "name": "node-data-manipulation-examples",
+  "version": "1.0.0",
+  "description": "examples of manipulating JSON, JSON array, Array in Node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psudeep/node-data-manipulation-examples.git"
+  },
+  "author": "prashant sudeep",
+  "license": "ISC"
+}
