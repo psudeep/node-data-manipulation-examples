@@ -4,13 +4,13 @@ const array1 = [{
   name: 'prashant',
   mobile: 'xxxxxxxxxxx',
   gender: 'male'
-}{
+},{
   key: 'twst',
   key2: 'twst2',
   name: 'psudep',
   mobile: '1111111',
   gender: 'female'
-}{
+},{
   key: 'qeuu',
   key2: 'hello',
   name: 'sipu',

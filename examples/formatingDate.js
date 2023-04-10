@@ -35,3 +35,29 @@ function convertTime24to12(time24h) {
   }
   return time.join('');
 }
+
+//date in DD/MM/YYYY format
+
+function getDate() {
+  const date = (new Date()).toISOString().slice(0, 10).split("-").reverse().join("/");
+  return date;
+}
+
+//format date from DD/MM/YYYY to YYYY-MM-DD
+
+const formatDate = date => {
+  const d = new Date(date)
+  let month = (d.getMonth() + 1).toString()
+  let day = d.getDate().toString()
+  const year = d.getFullYear()
+  if (month.length < 2) {
+      month = '0' + month
+  }
+  if (day.length < 2) {
+      day = '0' + day
+  }
+  return [ year, month, day ].join('-')
+}
+
+const new_format = formatDate('01/07/2022');
+console.log('new_format', new_format);
